@@ -1,0 +1,89 @@
+#body{
+	background-color:#C1D6D5; 
+	padding-bottom:20px; 
+	font-family: verdana;
+}
+#back{
+	margin: auto;
+	background-color: #A9A9A9;
+	width:275px;
+	height:16px;
+	text-align: center;
+	padding:8px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	border-radius: 4px;
+	display: block;
+}
+#mydiv{
+	border: 1px solid black;
+	border-radius: 10px;  
+	margin: 0px;
+	padding: 0px;
+	background-color:#23A199;
+	text-align: center;
+}
+#otter{
+	border-bottom: 1px dashed white;
+	margin: 10px;
+	padding: 10px;
+	color:#eee;
+}
+#info{
+	margin: 30px;
+	padding: 10px
+	border-radius: 4px;
+}
+#pic{
+	display: block;
+	margin: auto;
+	width: 50vw;
+	padding: 20px;
+}
+#cups{
+	width: 50vw;
+}
+#hw{
+	width:50vw;
+}
+#about.button:hover{
+	background-color: black;
+}
+#back.button:hover{
+	background-color: black;
+}
+#about{
+	margin:auto;
+	padding: 8px;
+	text-decoration: none;
+	height: 20px;
+	width:100px;
+	text-align: center;
+	background-color: #A9A9A9;
+	color: white;
+	display: block;
+	border-radius: 5px;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+h2{
+	margin-top: 100px;
+}	
+#signature{
+	color:#F5F5F5;
+	text-align: right;
+	text-align: bottom;
+	font-size: 50%;
+	font-style: italic;
+}
+#oink{
+	background: url(https://s-media-cache-ak0.pinimg.com/236x/1b/53/f2/1b53f2f017fb47658f7f765f5020296d.jpg);
+    border-radius: 200px;
+    width: 200px;
+    height: 200px;
+    background-size: 280px;
+    background-position: right;
+    margin: 50px;
+}
