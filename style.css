@@ -12,12 +12,16 @@
        
         #bottom { background-color: #FAE5D3; 
                   text-align:center;
-                  padding: 50px;
+                  padding: 20px 0 80px 0;
                   margin: 0px;
 }
           a     { color: #17202A;
                   font-weight: bold;
+                  text-decoration: none;
 } 
+        
+          a:hover { text-decoration: underline;
+}
         body    { background-color: #FDF2E9;
                   font-family: Verdana;
                   margin: 0px;
@@ -52,3 +56,21 @@
 }
         .redtext {color:red !important;
 }
+        .button { background-color: #2C3539;
+                  /*border: solid black 1px;*/
+                  border-radius: 3px;
+                  color: white;
+                  position:absolute;
+                  padding: 8px;
+                  width:100px;
+                  left:50%;
+                  margin:40px 0 0 -50px;
+                  font-size: 12px;
+                  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
+
+}
+        .button:hover { background-color: red;
+}
+
+
+
