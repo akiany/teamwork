@@ -9,23 +9,31 @@
 </head>
 
 <body>
-    <div id="v">
-        <h1>Javar is leaving us for good, Let's Dance!</h1>
-        <blockquote>
-            We’re blowing up balloons and icing the cake! There’s a big birthday party that we hope you can make! We’re not clowning around so circle the date For Sabrina’s 10th Birthday it’s gonna be great!
-        </blockquote>
-        <div id='m'>
-            <div id="hi"></div>
+    <div id="container">
+        <div id="v">
+            <h1>Giant panda</h1>
+            <blockquote>
+                We’re blowing up balloons and icing the cake! There’s a big birthday party that we hope you can make! We’re not clowning around so circle the date For Sabrina’s 10th Birthday it’s gonna be great!
+            </blockquote>
+            <div id='m'>
+                <div id="hi"></div>
+                <div id="background"></div>
+            </div>
+            <audio autoplay>
+                <source src="GoodByeParty.mp3" type="audio/mpeg"> Your browser does not support the audio element. adding another line here for testing purposes
+            </audio>
         </div>
-        <audio autoplay>
-            <source src="GoodByeParty.mp3" type="audio/mpeg"> Your browser does not support the audio element. adding another line here for testing purposes
-        </audio>
+        <button onclick='startanim()' id='btn'>click me to let javar go</button>
     </div>
-    <button onclick='startanim()' id='btn'>click me to let javar go</button>
     <script>
+    function createbackground (){
+        var el = document.getElementById('background');
+        el.className += 'ninja';
+    }
     function startanim() {
         document.getElementById('hi').className += ' startanimation';
         document.getElementById('btn').style.visibility = 'hidden';
+        createbackground();
     }
     </script>
 </body>

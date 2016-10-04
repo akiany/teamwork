@@ -49,16 +49,33 @@ img {
 }
 
 #hi {
-    width: 50px;
-    height: 72px;
+    width: 174px;
+    height: 100px;
     position: absolute;
     left: 50%;
-    margin-left: -25px;
+    margin:170px 0 0 -87px;
+}
+
+.ninja{
+    background-image: url("background.png");
+    width:100%;
+    height:357px;
+    -webkit-animation:ninja .1s;
+}
+
+@-webkit-keyframes ninja{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+
 }
 
 .startanimation {
-    background-image: url("http://s.cdpn.io/79/sprite-steps.png");
-    -webkit-animation: play .8s steps(10) infinite;
+    background-image: url("Roll.png");
+    -webkit-animation: play 1s steps(23) infinite;
 }
 
 @-webkit-keyframes play {
@@ -66,7 +83,7 @@ img {
         background-position: 0px;
     }
     to {
-        background-position: -500px;
+        background-position: -4088px;
     }
 }
 
