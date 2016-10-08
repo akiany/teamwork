@@ -1,0 +1,46 @@
+body {
+    font-family: montserrat;
+    font-size: 12px;
+}
+
+#container {
+    width: 800px;
+    margin: auto;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.content-wrapper {
+    margin-left: 10px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.logo {
+    font-size: 3em;
+    border: 1px solid #505050;
+    padding: 10px;
+    margin: 0;
+}
+
+body:first-child h1 {
+    border: 1px solid #ccc;
+}
+
+table,
+th,
+td {
+    border: 1px solid #505050;
+    border-collapse: collapse;
+    padding: 10px 30px;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}

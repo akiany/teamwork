@@ -3,42 +3,39 @@
 
 <head>
     <meta charset="UTF-8">
-    <style>
-	body{color:#c0c0c0;
-	background-color:#eee;
-	padding:0;
-	margin:0;
-}
-	h1{
-	font-family:montserrat;
-	color:#ffc500;
-	padding:30px;
-	margin-top:30px;
-	border-bottom:1px solid #505050;
-	}
-	img{
-	margin-left:30px;
-	border:2px solid #fff;
-}
-	#v{
-	background-color:white;
-	border:1px solid #ccc;
-}
-	img:hover{
-	border:2px solid pink;
-}
-    </style>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
     <title>link</title>
 </head>
 
 <body>
-<div id="v">
-    <h1>The header is just a placeholder don't try to make sense out of it</h1>
-    <a href="index.html"><img src="https://goo.gl/NvkHDX" alt="image"></a>
-</div>
-<div id='m'>
-	<h1>this is another</h1>
-</div>
+    <div id="container">
+        <div id="v">
+            <h1>Giant panda</h1>
+            <blockquote>
+                We’re blowing up balloons and icing the cake! There’s a big birthday party that we hope you can make! We’re not clowning around so circle the date For Sabrina’s 10th Birthday it’s gonna be great!
+            </blockquote>
+            <div id='m'>
+                <div id="hi"></div>
+                <div id="background"></div>
+            </div>
+            <audio autoplay>
+                <source src="GoodByeParty.mp3" type="audio/mpeg"> Your browser does not support the audio element. adding another line here for testing purposes
+            </audio>
+        </div>
+        <button onclick='startanim()' id='btn'>click me to let javar go</button>
+    </div>
+    <script>
+    function createbackground (){
+        var el = document.getElementById('background');
+        el.className += 'ninja';
+    }
+    function startanim() {
+        document.getElementById('hi').className += ' startanimation';
+        document.getElementById('btn').style.visibility = 'hidden';
+        createbackground();
+    }
+    </script>
 </body>
 
 </html>
